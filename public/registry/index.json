@@ -1,0 +1,19 @@
+[
+  {
+    "name": "marquee",
+    "files": [
+      "registry/components/ui/marquee.tsx"
+    ],
+    "type": "components:ui"
+  },
+  {
+    "name": "marquee-demo",
+    "registryDependencies": [
+      "marquee"
+    ],
+    "files": [
+      "registry/components/example/marquee-demo.tsx"
+    ],
+    "type": "components:example"
+  }
+]

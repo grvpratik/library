@@ -9,9 +9,10 @@ import { SidebarOpen } from "lucide-react";
 import { docsConfig } from "@/config/docs";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Button } from "./ui/button";
+
+import { ScrollArea } from "./ui/scroll-area";
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 
 import { MenuSVG, TwitterSVG } from "./icons/svgs";
 
