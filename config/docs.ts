@@ -1,8 +1,8 @@
 import { MainNavItem, SidebarNavItem } from "@/types";
 
 interface DocsConfig {
-  mainNav: MainNavItem[];
-  sidebarNav: SidebarNavItem[];
+	mainNav: MainNavItem[];
+	sidebarNav: SidebarNavItem[];
 }
 
 export const docsConfig: DocsConfig = {
@@ -58,7 +58,7 @@ export const docsConfig: DocsConfig = {
 				},
 			],
 		},
-		
+
 		{
 			title: "Authentication",
 			items: [
@@ -92,29 +92,14 @@ export const docsConfig: DocsConfig = {
 		{
 			title: "Components",
 			items: [
-				
 				{
-					title: "Bento Grid",
-					href: `/docs/components/bento-grid`,
+					title: "Marquee",
+					href: `/docs/components/marquee`,
 					items: [],
 				},
-				{
-					title: "Animated List",
-					href: `/docs/components/animated-list`,
-					items: [],
-				},
-
-				{
-					title: "Animated Circular Progress Bar",
-					href: `/docs/components/animated-circular-progress-bar`,
-					items: [],
-					label: "",
-				},
-			
 			],
 		},
 
-	
 		{
 			title: "Buttons",
 			items: [
@@ -122,41 +107,6 @@ export const docsConfig: DocsConfig = {
 					title: "Shimmer Button",
 					href: `/docs/components/shimmer-button`,
 					items: [],
-				},
-			],
-		},
-		{
-			title: "Backgrounds",
-			items: [
-				{
-					title: "Dot Pattern",
-					href: `/docs/components/dot-pattern`,
-					items: [],
-				},
-				{
-					title: "Grid Pattern",
-					href: `/docs/components/grid-pattern`,
-					items: [],
-				},
-			],
-		},{
-			title: "Templates",
-			items: [
-				
-				{
-					title: "Startup",
-					href: `/docs/templates/startup`,
-					items: [],
-					label: "New",
-					paid: true,
-				},
-				{
-					title: "SaaS",
-					href: `/docs/templates/saas`,
-					items: [],
-					disabled: true,
-					label: "Coming soon",
-					paid: true,
 				},
 			],
 		},

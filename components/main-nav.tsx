@@ -49,7 +49,7 @@ export function MainNav() {
 				{docsConfig.mainNav.map((item) => (
 					<Link
 						key={item.href}
-						href={item.href!}
+						href={item.href || ""}
 						target={item.external ? "_blank" : undefined}
 						className={cn(
 							"flex items-center justify-center transition-colors hover:text-foreground/80",
