@@ -133,7 +133,7 @@ export default makeSource({
 					}
 				});
 			},
-			[
+			[ //@ts-ignore
 				rehypePrettyCode,
 				{
 					theme: "github-dark",
