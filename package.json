@@ -7,7 +7,12 @@
 		"build": "next build",
 		"build:registry": "tsx --tsconfig  ./tsconfig.scripts.json ./scripts/build-registry.ts",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"overrides": {
+			"next-contentlayer": {
+				"next": "$next"
+			}
+		}
 	},
 	"dependencies": {
 		"@radix-ui/react-accordion": "^1.2.0",

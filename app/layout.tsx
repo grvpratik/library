@@ -21,7 +21,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body
 				className={cn(
-					"relative flex min-h-screen w-full flex-col justify-center overflow-x-hidden scroll-smooth bg-background font-sans antialiased",
+					"relative flex min-h-screen w-full flex-col justify-center overflow-x-hidden scroll-smooth  font-sans antialiased",
 					fontSans.variable
 				)}
 			>
