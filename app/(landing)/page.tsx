@@ -1,9 +1,13 @@
+import { ComponentPreview } from '@/components/component-preview';
+import MarqueeDemo from '@/registry/components/example/marquee-demo';
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, perspiciatis facere. Laboriosam tempore laborum ratione at fugiat dicta maiores vero modi earum esse, nobis minima quae possimus voluptatem? Magni, perferendis?e</div>
-  )
+		<div>
+		<MarqueeDemo/>
+		</div>
+	);
 }
 
 export default Home

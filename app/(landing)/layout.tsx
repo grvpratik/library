@@ -4,6 +4,8 @@ import React from 'react'
 interface LandingLayoutProps {
 	children: React.ReactNode;
 }
+import "@/styles/globals.css";
+import "@/styles/mdx.css";
 const LandingLayout = ({ children }: LandingLayoutProps) => {
 	return (
 		<>
